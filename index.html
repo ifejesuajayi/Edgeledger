@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edge Ledger</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="css/widescreen.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/bed27b19a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="text-pri"> <i class="fa-solid fa-book-open"></i> Edge</span>Ledger
+        </h1>
+        <ul>
+            <li><a href="#showcase">Home</a></li>
+            <li><a href="#what">What</a></li>
+            <li><a href="#who">Who</a</li> <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- header-main-showcase -->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="big-heading">The Sky Is The Limit</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quaerat amet fuga a, officiis eius!</p>
+            <a class="btn" href="#what">Read More</a>
+        </div>
+    </header>
+    <!-- section-what-we-do -->
+    <section id="what">
+        <div class="container">
+            <h2 class="mid-heading">
+                <span class="text-pri">What</span> We Do
+            </h2>
+            <div class="items">
+                <div class="item">
+                    <i class="what-icon fa-solid fa-building-columns fa-2x"></i>
+                    <div>
+                        <h3>Investment Banking </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="what-icon fa-solid fa-book-open-reader fa-2x"></i>
+                    <div>
+                        <h3>Portfolio Management </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="what-icon fa-solid fa-pencil fa-2x"></i>
+                    <div>
+                        <h3>Tax & Custodial </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- section-who-we-are -->
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text">
+            <h2 class="mid-heading">
+                <span class="text-pri">Who</span> We Are
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, magni optio. Eveniet atque incidunt
+                deleniti! Tempora molestiae reiciendis iste repellat!</p>
+            <h4>Our Team</h4>
+            <ul class="list">
+                <li>Ajayi Ifejesu: Ceo</li>
+                <li>Ajayi Taiwo: Co-founder</li>
+                <li>Kemi Davies: Chief-investor</li>
+                <li>Brad Traversy: Mentor</li>
+                <li>Tolulope: Chief-accountant</li>
+                <li>Ajayi Lawrence: Co-founder</li>
+            </ul>
+        </div>
+    </section>
+    <!-- Our clients -->
+    <section id="clients">
+        <div class="container">
+            <h2 class="mid-heading">
+                <span class="text-pri">Our</span> Clients
+            </h2>
+            <div class="items">
+                <div><img src="./img/logos/logo1.png" alt="logo"></div>
+                <div><img src="./img/logos/logo2.png" alt="logo"></div>
+                <div><img src="./img/logos/logo3.png" alt="logo"></div>
+                <div><img src="./img/logos/logo4.png" alt="logo"></div>
+                <div><img src="./img/logos/logo5.png" alt="logo"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact-us -->
+    <section id="contact">
+        <div class="contact-form bg-primary">
+            <h2>Contact Us</h2>
+            <p>Please use the form below to contact us</p>
+            <form action="mail to: ajayiifejesu@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone No</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter Phone No">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+                </div>
+                <input type="submit" value="Send" class=" btn-dark">
+            </form>
+
+        </div>
+        <div class="map">
+
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <p>Copyright © 2022, EdgeLedger, All rights reserved.</p>
+    </footer>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- local js file -->
+    <script src=js/main.js> </script>
+
+     <!-- google maps -->
+        <script async
+        src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDhbMNCwPe9wqxMHYZUzBCBz8mvvXqQ7EQ&callback=initMap" >
+    </script>
+</body>
+
+</html>
+
+<!-- AIzaSyDhbMNCwPe9wqxMHYZUzBCBz8mvvXqQ7EQ -->
